@@ -28,11 +28,7 @@ diesel::table! {
         max_health -> Int4,
         speed -> Int4,
         amt_of_emps -> Int4,
-<<<<<<< HEAD
         level -> Int4,
-=======
-        level_ -> Int4,
->>>>>>> fd3bbfe26544ab3185ef7a47d77048be13c8812e
         cost -> Int4,
     }
 }
@@ -75,11 +71,7 @@ diesel::table! {
         speed -> Int4,
         damage -> Int4,
         radius -> Int4,
-<<<<<<< HEAD
         level -> Int4,
-=======
-        level_ -> Int4,
->>>>>>> fd3bbfe26544ab3185ef7a47d77048be13c8812e
         cost -> Int4,
     }
 }
@@ -151,11 +143,7 @@ diesel::table! {
         id -> Int4,
         radius -> Int4,
         damage -> Int4,
-<<<<<<< HEAD
         level -> Int4,
-=======
-        level_ -> Int4,
->>>>>>> fd3bbfe26544ab3185ef7a47d77048be13c8812e
         cost -> Int4,
     }
 }
