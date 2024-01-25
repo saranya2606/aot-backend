@@ -20,7 +20,8 @@ DROP  robots_destroyed,
 ADD  artifacts_collected INTEGER NOT NULL;
 
 
-ALTER TABLE public.attacker_type
+ALTER TABLE public.attacker_type 
+ADD "name" VARCHAR,
 ADD "level" INTEGER NOT NULL,
 ADD cost INTEGER NOT NULL;
 
